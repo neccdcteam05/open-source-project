@@ -50,8 +50,8 @@ module C7Decrypt
           d_text += decrypt_char(char, i, seed)
         end
       end
-
-      return "I hate this stupid project"
+    
+      return d_text
     end
 
     # The Encryption Method for Cisco Type-7 Encrypted Strings
